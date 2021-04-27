@@ -9,7 +9,7 @@
 
 function openREGISTER(){
    [PATENTCOUNTRY,PATENTNUMBER]=getData();
-   redirectToRegister();
+   redirect2Register();
 }
 //********************************************************
 
