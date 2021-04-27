@@ -32,7 +32,7 @@ return [PATENTCOUNTRY, PATENTNUMBER]
 //********************************************************
 // see redirectME()
 
-function redirectToRegister(){
+function redirect2Register(){
 	if (PATENTCOUNTRY == "EP" || PATENTCOUNTRY == "WO"){ // EP or WO => GO TO EPO REGISTER.
     	   //location.replace("https://register.epo.org/advancedSearch?" + "&lng=de&pn="+ PATENTCOUNTRY + PATENTNUMBER + "&tab=doclist");
 			window.open("https://register.epo.org/advancedSearch?" + "&lng=de&pn="+ PATENTCOUNTRY + PATENTNUMBER + "&tab=doclist");
